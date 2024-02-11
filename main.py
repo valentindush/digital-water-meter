@@ -5,7 +5,8 @@ import pytesseract
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 # Load an image using OpenCV
-image_path = 'path/to/your/photo.jpg'
+# image_path = 'path/to/your/photo.jpg'
+image_path = 'meter.jpg'
 image = cv2.imread(image_path)
 
 # Convert the image to grayscale
